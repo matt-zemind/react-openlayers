@@ -112,11 +112,9 @@ export class Map extends React.Component<any, any> {
  }
   render() {
     return (
-      <div>
         <div className="openlayers-map" ref={(el)=> this.mapDiv = el}>
           {this.props.children}
         </div>
-      </div>
     );
   }
 
